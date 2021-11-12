@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS: Table</title>
+        <style>
+        
+        h2 {
+            color: rgb(0, 232, 15);
+        }  
+        
+        #rabbits-info-heading {
+            background-color: purple;
+        }
+        
+        p {
+            color: rgb(191, 0, 255);
+        }
+        
+        .song-lyrics {
+            background-color: yellow;
+        }
+		
+		#pet-rabbits {
+			font-family: Arial, Helvetica, sans-serif;
+			border-collapse: collapse;
+			width: 50%;
+		}
+
+		td, th {
+			border: 1px solid #ddd;
+			padding: 8px;
+		}
+		
+		#pet-rabbits tr:nth-child(even){background-color: #fce8f2;}
+		
+		#pet-rabbits td:hover {background-color: #ddd;}
+		
+		#pet-rabbits th {
+			padding: 20px;
+			text-align: center;
+			background-color: #04AA6D;
+			color: white;
+		}
+
+        </style>
+    </head>
+    <body>
+
+    <h1>All about rabbits!</h1>
+    
+    <h2 id="rabbits-info-heading">Basic info</h2>
+    
+    <p>Rabbits are little creatures with long ears and puffy tails, and they move their nose up and down in an adorable way. They eat the most orange vegetables in <em>our</em> world, and <strong>they reproduce more than any human <em>ever</em> has</strong>.</p>
+    
+    <img src="https://www.kasandbox.org/programming-images/animals/rabbit.png" alt="Rabbit with lop ears in barn" width="203"> 
+    
+    <h3>Why rabbits make great pets</h3>
+    
+    <ul>
+        <li>They're furry!</li>
+        <li>Great listeners!</li>
+        <li>Eat all your leftover carrots!</li>
+    </ul>
+    
+    <h3>Top 3 most famous rabbits</h3>
+    
+    <ol>
+        <li>Bugs bunny</li>
+        <li>Easter Bunny</li>
+        <li>Thumper</li>
+    </ol>
+	
+	<h3>My Pet Rabbits</h3>
+		
+    <table id="pet-rabbits">
+        <thead>
+			<tr>
+				<th>Pet name</th>
+				<th>Color</th>
+				<th>Favorite Food</th>
+			</tr>
+        </thead>
+        <tbody>
+			<tr>
+				<td>Daemon</td>
+				<td>Black</td>
+				<td>Carrots</td>
+			</tr>
+			<tr>
+				<td>Angel</td>
+				<td>White</td>
+				<td>Kangkong</td>
+			</tr>
+			<tr>
+				<td>Mocha</td>
+				<td>Brown</td>
+				<td>Feeds</td>
+			</tr>
+			<tr>
+				<td>Fonde</td>
+				<td>Spotted</td>
+				<td>All types of food</td>
+			</tr>
+        </tbody>
+    </table>
+	
+	<h2> Other Pets </h2>
+	
+	 <table>
+        <thead>
+			<tr>
+				<th>Pet name</th>
+				<th>Color</th>
+				<th>Type</th>
+			</tr>
+        </thead>
+        <tbody>
+			<tr>
+				<td>King</td>
+				<td>Bown</td>
+				<td>Dog</td>
+			</tr>
+			<tr>
+				<td>Monmon</td>
+				<td>White</td>
+				<td>Cat</td>
+			</tr>
+        </tbody>
+    </table>
+	
+	<div style="margin-top:50px;">
+		<hr>
+		<h2> End of Page </h2> 
+	</div>
+    
+    </body>
+</html>
